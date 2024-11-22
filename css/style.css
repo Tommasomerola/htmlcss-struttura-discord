@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(102, 203, 243);
+    padding: 3%;
+
+}
+
+#section{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    
+}
