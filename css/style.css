@@ -28,7 +28,7 @@ header{
 }
 
 #section2{
-    height: 600px;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -38,12 +38,15 @@ header{
 #div1{
    
     background-color: plum;
-    height: 500px ;
+    height: 600px ;
     width: 80%;
 }
 
 .bordo{
-    height: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grigio{
@@ -56,4 +59,11 @@ header{
 
 .nero{
     background-color: black;
+}
+
+.colonne-1{
+    background-color: aqua;
+    height: 620px;
+    width: 95%;
+    
 }
