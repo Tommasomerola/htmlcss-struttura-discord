@@ -6,13 +6,54 @@
 
 header{
     background-color: rgb(102, 203, 243);
+    height: 100px;
     padding: 3%;
 
 }
 
 #section{
+
     display: flex;
     justify-content: space-between;
+
     background-color: orange;
-    
+
+
+}
+
+.span-header{
+    background-color: orange;
+    border: dashed black 5px;
+    width: auto;
+}
+
+#section2{
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1{
+   
+    background-color: plum;
+    height: 500px ;
+    width: 80%;
+}
+
+.bordo{
+    height: 600px;
+}
+
+.grigio{
+    background-color: gray;
+}
+
+.bianco{
+    background-color: #fff;
+}
+
+.nero{
+    background-color: black;
 }
