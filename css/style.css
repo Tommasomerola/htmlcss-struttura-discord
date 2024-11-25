@@ -138,3 +138,33 @@ header{
     background-color: turquoise;
     border: 2px dashed black; 
 }
+
+
+footer{
+    background-color: black;
+}
+
+
+
+.end-footer{
+    
+    border-bottom: 2px solid white;
+    padding: 30px;
+
+}
+
+.box-end-footer{
+    background-color: #7fffd3;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.cont-box-footer{
+    background-color: #feb6bf;
+    padding: 3px 5px;
+    border: 2px dashed black;
+}
