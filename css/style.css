@@ -7,13 +7,13 @@
 header{
     background-color: rgb(102, 203, 243);
     height: 150px;
-    padding: 3%;
-
+    padding: 3% 60px;
 }
 
 #section{
-    
+    margin: 0 auto;
     height: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,24 +23,29 @@ header{
 
 }
 
-.span-header{
+.logo{
     height: 100%;
     background-color: orange;
-    border: dashed black 3px;
+    border: 3px dashed black ;
     width: 20%;
+    display: flex;
+    align-items: center;
 }
 
 
-.div-header{
+.menu{
     height: 100%;
-    border: dashed black 3px;
+    border: 3px dashed black ;
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 
 #section2{
-    height: 500px;
+    height: 400px;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -50,9 +55,9 @@ header{
 #div1{
    
     background-color: plum;
-    padding: 10%;
+    padding: 50px 0;
     height: 80%;
-    width: 60%;
+    width: 40%;
     border: 2px dashed black; 
     
 }
@@ -149,13 +154,13 @@ footer{
 .end-footer{
     
     border-bottom: 2px solid white;
-    padding: 30px;
+    padding: 10px 20% 0 20%;
 
 }
 
 .box-end-footer{
     background-color: #7fffd3;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
