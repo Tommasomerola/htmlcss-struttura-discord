@@ -6,22 +6,25 @@
 
 header{
     background-color: rgb(102, 203, 243);
-    height: 100px;
+    height: 150px;
     padding: 3%;
 
 }
 
 #section{
-
+    
+    height: 100%;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    
     background-color: orange;
 
 
 }
 
 .span-header{
+    height: 100%;
     background-color: orange;
     border: dashed black 3px;
     width: 20%;
@@ -29,7 +32,7 @@ header{
 
 
 .div-header{
-
+    height: 100%;
     border: dashed black 3px;
     width: 60%;
 
@@ -50,6 +53,7 @@ header{
     padding: 10%;
     height: 80%;
     width: 60%;
+    border: 2px dashed black; 
     
 }
 
@@ -81,13 +85,13 @@ header{
     display: flex;
     justify-content: space-between;
    
-    
 }
 
 .colonne-img{
     background-color: aqua;
     height: 100%;
     width: 60%;
+    border: 2px dashed black; 
     
 }
 
@@ -95,5 +99,42 @@ header{
     background-color: salmon;
     height: 100%;
     width: 40%;
+    border: 2px dashed black; 
 }
 
+.bordo2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-verde{
+    background-color: green;
+    height: 600px;
+    width: 60%;
+    border: 2px dashed black; 
+}
+
+.sezione-footer{
+    width: 60%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#colonna-footer{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 81, 62);
+    border: 2px dashed black;
+}
+
+.colonne-footer{
+    width: 40%;
+    height: 100%;
+    background-color: turquoise;
+    border: 2px dashed black; 
+}
