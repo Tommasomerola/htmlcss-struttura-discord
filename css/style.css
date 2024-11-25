@@ -23,12 +23,21 @@ header{
 
 .span-header{
     background-color: orange;
-    border: dashed black 5px;
-    width: auto;
+    border: dashed black 3px;
+    width: 20%;
 }
 
+
+.div-header{
+
+    border: dashed black 3px;
+    width: 60%;
+
+}
+
+
 #section2{
-    height: 700px;
+    height: 500px;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -38,12 +47,15 @@ header{
 #div1{
    
     background-color: plum;
-    height: 600px ;
-    width: 80%;
+    padding: 10%;
+    height: 80%;
+    width: 60%;
+    
 }
 
 .bordo{
-    height: 700px;
+    height: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,9 +73,27 @@ header{
     background-color: black;
 }
 
-.colonne-1{
-    background-color: aqua;
-    height: 620px;
-    width: 95%;
+.sezioni-main{
+
+    width: 60%;
+    height: 100%;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+   
     
 }
+
+.colonne-img{
+    background-color: aqua;
+    height: 100%;
+    width: 60%;
+    
+}
+
+.colonne-text{
+    background-color: salmon;
+    height: 100%;
+    width: 40%;
+}
+
